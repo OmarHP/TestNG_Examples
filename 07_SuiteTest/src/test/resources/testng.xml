@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+
+    <test name="order">
+        <classes>
+            <class name="com.ohp.testng.TestConfig" />
+            <class name="com.ohp.testng.TestOrder" />
+        </classes>
+    </test>
+
+    <!-- Run test method on group "selenium" only -->
+    <test name="database">
+        <classes>
+            <class name="com.ohp.testng.TestConfig" />
+            <class name="com.ohp.testng.TestDatabase" />
+        </classes>
+
+    </test>
+
+</suite>
