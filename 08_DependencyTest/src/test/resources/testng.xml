@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestDependency">
+    <test name="TestCase1">
+        <classes>
+            <class name="com.ohp.testng.TestApp"/>
+            <class name="com.ohp.testng.TestDatabase"/>
+            <class name="com.ohp.testng.TestServer"/>
+        </classes>
+    </test>
+</suite>
